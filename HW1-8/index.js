@@ -14,7 +14,8 @@ var arr = [1,2,3,4];
 
 var arr = [1, 2, 3, 4];
 var sumchet = 0;
-for (var i = 0; i < arr.length; i++){
+var long = arr.length;
+for (var i = 0; i < long; i++){
     if (arr[i] % 2 == 0 && arr[i] > 3) {
         sumchet = sumchet + arr[i];
     }
