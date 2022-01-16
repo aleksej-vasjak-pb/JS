@@ -11,10 +11,19 @@ var arr = [1,2,3,4];
 
 - Не разрашается использовать специальные методы массивов.
 */
-
+/*
 var arr = [1, 2, 3, 4];
 var sum = 0;
 for (var i = 0; i < arr.length; i++) {
+    sum = sum + arr[i];
+}
+ console.log(sum);
+ */
+
+var arr = [1, 2, 3, 4];
+var sum = 0;
+var long = arr.length;
+for (var i = 0; i < long; i++) {
     sum = sum + arr[i];
 }
  console.log(sum);
