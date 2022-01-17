@@ -12,7 +12,6 @@ var num = 0;
 do {
   n = n / 2;
   num += 1;
-  //console.log(n);
 } while (n >= 50);
 console.log('При делении 1000 на 2 число меньше 50-ти =', n);
 console.log('Количество итераций = ', num);
