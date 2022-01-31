@@ -19,8 +19,8 @@ function reverse(mas) {
     if (mas.length == 0) throw new Error('Массив пустой');
     
     let result = new Array();
-    var i = 0;
-    var elem = mas.lenght;
+    let i = 0;
+    let elem = mas.length;
     while (i < elem) {
         result.push(mas[elem - 1]);
         elem--;
@@ -29,4 +29,6 @@ function reverse(mas) {
 }
   
 reverse(arr);
+
+
 
